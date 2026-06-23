@@ -10,12 +10,12 @@ This GitHub organization is the official placeholder for public Pactia packages 
 
 ### What lives here
 
-| Kind | Example | Purpose |
-| --- | --- | --- |
-| **Kernel** | `@pactia/kernel` | Core tags, macros, and registry defaults |
-| **Stack** | `@pactia/rust-stack` | Platform law — language, errors, pagination |
-| **Surface** | `@pactia/html-css-js` | UI / static-site stack macros |
-| **Community** | `@github.com/you/your-rules` | Shared domain or compliance intent |
+| Kind          | Example                      | Purpose                                     |
+| ------------- | ---------------------------- | ------------------------------------------- |
+| **Kernel**    | `@pactia/kernel`             | Core tags, macros, and registry defaults    |
+| **Stack**     | `@pactia/rust-stack`         | Platform law — language, errors, pagination |
+| **Surface**   | `@pactia/html-css-js`        | UI / static-site stack macros               |
+| **Community** | `@github.com/you/your-rules` | Shared domain or compliance intent          |
 
 Each package is a git repository with `pactia.toml`, `index.pactia`, and semver tags (`v1.0.0`, `v1.1.0`, …). The `pactia` CLI resolves coordinates to these repos and vendors them into `.pactia/packages/`.
 
@@ -65,13 +65,13 @@ No central upload step — publish is git + semver tags. Optional later: `pactia
 
 Pactia itself — spec, compiler, CLI, editor — lives under **[pactia-lang](https://github.com/pactia-lang)**.
 
-| | Where |
-| --- | --- |
-| Language spec | [pactia-lang/spec](https://github.com/pactia-lang/spec) |
-| Compiler (`pactiac`) | [pactia-lang/pactiac](https://github.com/pactia-lang/pactiac) |
-| Package manager (`pactia`) | [pactia-lang/pactia](https://github.com/pactia-lang/pactia) |
-| **Public packages** | **here — [pactia-io](https://github.com/pactia-io)** |
-| Registry (coming) | [pactia.io](https://pactia.io) |
+|                            | Where                                                         |
+| -------------------------- | ------------------------------------------------------------- |
+| Language spec              | [pactia-lang/spec](https://github.com/pactia-lang/spec)       |
+| Compiler (`pactiac`)       | [pactia-lang/pactiac](https://github.com/pactia-lang/pactiac) |
+| Package manager (`pactia`) | [pactia-lang/pactia](https://github.com/pactia-lang/pactia)   |
+| **Public packages**        | **here — [pactia-io](https://github.com/pactia-io)**          |
+| Registry (coming)          | [pactia.io](https://pactia.io)                                |
 
 ---
 
@@ -81,4 +81,4 @@ Pactia itself — spec, compiler, CLI, editor — lives under **[pactia-lang](ht
 
 **Get involved** — [spec issues](https://github.com/pactia-lang/spec/issues/new?template=spec_clarification.yml) · [pactia](https://github.com/pactia-lang/pactia/issues) · [pactiac](https://github.com/pactia-lang/pactiac/issues)
 
-[pactia.io](https://pactia.io) · [docs.pactia.io](https://docs.pactia.io) *(coming soon)*
+[pactia.io](https://pactia.io) · [docs.pactia.io](https://docs.pactia.io) _(coming soon)_
